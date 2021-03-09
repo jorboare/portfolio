@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Navbar'
+import ParallaxTitle from './ParallaxTitle'
+import Reveal from './Reveal'
+import Parallax1 from './Parallax1'
+import Hero from './components/hero/Hero'
+
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <ParallaxTitle />
+      <Reveal />
+      <Parallax1 />
+      <ParallaxTitle />
+
+    </>
   );
 }
 
