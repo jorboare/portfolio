@@ -10,6 +10,7 @@ const Hero = () => {
         document.querySelector('.name').classList.add('visible')
         document.querySelector('.subtitle').classList.add('visible')
         document.querySelector('.col-hero-link').classList.add('visible')
+        document.querySelector('.gradient-bg').classList.add('visible')
     }
 
 
@@ -17,6 +18,7 @@ const Hero = () => {
     return (
         <>
             <div className='vivus-bg' id='hero'>
+
                 <Container>
                     <Row>
                         <Col md={9} className='vivus-col'>
@@ -48,7 +50,8 @@ const Hero = () => {
                         </Col>
                     </Row>
                 </Container>
-
+                <div className='gradient-bg'>
+                </div>
             </div>
         </>
     );

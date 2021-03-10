@@ -7,9 +7,9 @@ const ParallaxTitle = () => {
     window.addEventListener("load", heroTitleAnimation)
 
     return (
-        <div className='hero' id='title'>
-            <h1 className='hero1 fadeInRight revealHero'>Parallax and Effects</h1>
-            <h1 className='hero2 fadeInLeft revealHero'>showcase</h1>
+        <div className='parallax-title' id='title'>
+            <h1 className='parallax-title1 fadeInRight revealHero'>Parallax and Effects</h1>
+            <h1 className='parallax-title2 fadeInLeft revealHero'>showcase</h1>
         </div>
     );
 }
