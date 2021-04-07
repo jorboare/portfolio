@@ -31,10 +31,12 @@ export const revealContainers = () => {
 
 export const heroTitleAnimation = () => {
 
-    // //Reveal Effects
-    document.querySelectorAll('.revealHero').forEach(elm => {
-        elm.classList.add('visible')
-    })
+
+    isInViewPort(document.querySelector('.feature')) ?
+        document.querySelector('.feature').classList.add('visible')
+        :
+        document.querySelector('.feature').classList.remove('visible')
+
 }
 
 export const parallaxEffect = () => {
@@ -42,10 +44,10 @@ export const parallaxEffect = () => {
 
         spaceLeft = elm.getBoundingClientRect().top
 
-        elm.dataset.axis === 'vertical' ? speedVertical = elm.dataset.speed * spaceLeft : speedVertical = 0
         elm.dataset.axis === 'horizontal' ? speedHorizontal = elm.dataset.speed * spaceLeft : speedHorizontal = 0
+        elm.dataset.axis === 'vertical' ? speedVertical = elm.dataset.speed * spaceLeft : speedVertical = 0
 
-        elm.style.transform = `translate(${speedVertical}px, ${speedHorizontal}px)`
+        elm.style.transform = `translate(${speedHorizontal}px, ${speedVertical}px)`
     })
 }
 

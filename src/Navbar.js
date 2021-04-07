@@ -12,7 +12,8 @@ const Navigation = () => {
             <Navbar.Brand href="#hero" className='scrollto'>Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#hero">Home</Nav.Link>
-                <Nav.Link href="#Parallax" className='scrollto'>Parallax</Nav.Link>
+                <Nav.Link href="#aboutMe" className='scrollto'>Sobre mí</Nav.Link>
+                <Nav.Link href="#feature" className='scrollto'>Mi código</Nav.Link>
                 <Nav.Link href="#pricing">Pricing</Nav.Link>
             </Nav>
         </Navbar>
