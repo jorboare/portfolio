@@ -15,7 +15,7 @@ const projects = () => {
                         <img src={Fourketta} alt='proyecto de Cocina' />
                         <h3>FourkettA</h3>
                         <div className='description'>
-                            <p>Organizador de recetas con tintes de red social. Single-Page application basado en ReactJS para el Frontend y en ExpressJS para el backend a la hora de gestionar la API REST</p>
+                            <p>Organizador de recetas con tintes de red social. Single-Page Application basado en ReactJS para el Frontend y en ExpressJS para el backend a la hora de gestionar la API REST</p>
                         </div>
                     </a>
 
