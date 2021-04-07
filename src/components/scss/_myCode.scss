@@ -1,0 +1,74 @@
+// MI CÓDIGO
+.feature-rel-box{
+  position: relative;
+
+    .feature{
+      height:95px;
+      background-color: $secondary-color;
+      transition: all 1s ease-in-out;
+      overflow: hidden;
+      padding-top: 10px;
+      box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.1);
+
+
+    
+      &-img {
+        height: 100px;
+        object-fit:fill;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      h2 {
+        width: 700px;
+        margin: 0 auto;
+        font-weight: 100;
+        font-size: 50px;
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      hr {
+        margin-bottom: 50px;
+      }
+      
+      h3 {
+        margin: 0 auto;
+        font-weight: 100;
+        text-align: center;
+        margin: 15px 0;
+      }
+    
+      p{
+        text-align: center;
+      }
+    }
+    
+    .feature.visible{
+    height:520px;
+    }
+
+    .circle{
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      background-color: $secondary-color;
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: none;
+
+      .drop-arrow {
+        margin-top: 15px;
+        width: 50%;
+        filter: invert(1);
+        transition: transform 0.3s ease
+       }
+
+      .drop-arrow.active {
+        transform: rotate(180deg);
+      }
+    }
+}

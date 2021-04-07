@@ -1,0 +1,43 @@
+@import 'variables', 'hero', 'aboutMe', 'myCode', 'technologies', 'projects', 'contact';
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  transition: all 0.5s;
+  z-index: 500;
+  padding: 0 20px 0 20px;
+  height: 60px;
+  box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.16);
+  transform: translateY(-60px)
+}
+
+.navbar.sticky {
+    transform: translateY(0)
+
+}
+
+
+/* Parallax Transition Smooth */
+.parallax {
+  transition: transform 5s cubic-bezier(.15,.94,.49,.94)
+}
+
+
+

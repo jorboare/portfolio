@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar'
-import Features from './components/features/Features'
-import AboutMe from './components/aboutMe/AboutMe'
-import Technologies from './components/technologies/Technologies'
-import Reveal from './Reveal'
-import Parallax1 from './Parallax1'
-import Hero from './components/hero/Hero'
+import Navbar from './components/layout/navbar/Navbar'
+import Features from './components/pages/myCode/MyCode'
+import AboutMe from './components/pages/aboutMe/AboutMe'
+import Technologies from './components/pages/technologies/Technologies'
+import Projects from './components/pages/projects/Projects'
+import Contact from './components/pages/contact/contact'
+import Hero from './components/pages/hero/Hero'
 
 
 function App() {
@@ -19,9 +19,8 @@ function App() {
       <AboutMe />
       <Features />
       <Technologies />
-      <Reveal />
-      <Parallax1 />
-      <Features />
+      <Projects />
+      <Contact />
 
     </>
   );

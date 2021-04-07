@@ -1,0 +1,102 @@
+/* HERO */
+
+.vivus-bg{
+z-index: -100;
+height: 100vh;
+padding: 40px;
+transition: all 2s ease;
+
+.vivus-col{
+  position: relative;
+  background-color: $blue-color;
+  height: 90vh;
+
+  .name {
+  position:absolute;
+  width: 600px;
+  z-index: 200;
+  top: 150px;
+  left: 100px;
+  opacity: 0;
+  transition: all 1s;
+  transition-delay: 1s;
+  }
+  
+  .name.visible {
+    z-index: 200;
+    opacity: 1;
+    left: 110px;
+  }
+  
+  .vivus-animation {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 200;
+    width: 600px;
+  }
+  
+  .subtitle{
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25px;
+  opacity: 0;
+  top: 370px;
+  left: 107px;
+  transition: all 1s;
+  transition-delay: 1s;
+  
+  }
+  
+  .subtitle.visible{
+  opacity: 1
+  }
+  
+  #hero-link{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 130px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    opacity: 0;
+    transition: all 1s;
+
+    
+    .scroll-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .arrow-down{
+        filter: invert(1);
+        width: 25px;
+      }
+      
+      p{
+        margin: 10px auto;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    
+  }
+
+  #hero-link:hover{
+    transform: scale(1.05);
+    background-color: rgba(255,255,255,0.2);
+  }
+  
+  #hero-link.visible{
+    opacity: 1
+  }
+}
+
+}
+
