@@ -291,22 +291,42 @@
 }
 
 @media (max-width: 500px) {
+  .vivus-bg {
+    height: 60vh;
+  }
+  .vivus-bg .vivus-col {
+    background-color: #9fdfda;
+    height: 50vh;
+  }
   .vivus-bg .vivus-col .name.visible {
-    left: 52px;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: 150px;
   }
   .vivus-bg .vivus-col .vivus-animation {
-    top: 150px;
-    left: 50px;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     width: 150px;
   }
   .vivus-bg .vivus-col .subtitle {
     font-size: 10px;
-    top: 205px;
-    left: 53px;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .vivus-bg .vivus-col #hero-link {
-    top: 300px;
+    top: 70%;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
