@@ -485,9 +485,14 @@
 }
 
 @media (max-width: 470px) {
+  .feature-rel-box .feature {
+    height: 70px;
+  }
   .feature-rel-box .feature h2 {
     width: 100%;
     font-size: 30px;
+    position: relative;
+    z-index: 200;
   }
 }
 
@@ -509,8 +514,9 @@
 }
 
 .feature-rel-box .circle .drop-arrow {
-  margin-top: 15px;
   width: 50%;
+  display: block;
+  margin: 20px auto 0 auto;
   -webkit-filter: invert(1);
           filter: invert(1);
   -webkit-transition: -webkit-transform 0.3s ease;

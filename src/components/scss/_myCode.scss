@@ -44,13 +44,19 @@
       p{
         text-align: center;
       }
-@media (max-width: 470px){
+      
+    }
+    @media (max-width: 470px){
+
+      .feature{
+        height: 70px;
         h2{
           width: 100%;
           font-size: 30px;
+          position: relative;
+          z-index: 200;
         }
       }
-     
     }
     
 .feature.visible{
@@ -69,8 +75,9 @@
       border: none;
 
       .drop-arrow {
-        margin-top: 15px;
         width: 50%;
+display: block;
+margin: 20px auto 0 auto;
         filter: invert(1);
         transition: transform 0.3s ease
        }

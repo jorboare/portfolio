@@ -55,9 +55,9 @@ const Features = () => {
                 </Container>
             </div>
 
-            <button className='circle' onClick={handleAction}>
+            <a href='#feature' className='scrollto circle' onClick={handleAction}>
                 <img src={Arrow} alt='arrow' className='drop-arrow' />
-            </button>
+            </a>
 
         </div>
     );
