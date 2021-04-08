@@ -16,7 +16,7 @@ const Navigation = () => {
     return (
         <>
             <nav className='navbar'>
-                <a href="#hero" className='scrollto' className='brand'>JB</a>
+                <a href="#hero" className='scrollto brand'>JB</a>
                 <nav className="mr-auto">
                     <ul>
                         <li><a href="#hero" >Inicio</a></li>
