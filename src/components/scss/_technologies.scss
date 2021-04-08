@@ -23,8 +23,8 @@ margin-top: 30px;
 
   .technologies-img{
     position: relative;
-    overflow: hidden;
     width: 100%;
+    overflow: hidden;
     height: 220px;
     opacity: 0.8;
     transition: all 0.5s ease-in-out;
@@ -32,8 +32,15 @@ margin-top: 30px;
     .tech-img {
       position: absolute;
       left: -120px;
-      width: 1500px;
+      width: 120%;
     }
+  }
+
+  @media (min-width: 1000px) {
+
+  .technologies-img{
+    height: 300px;
+  }
   }
 
   .technologies-img:hover{

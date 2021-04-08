@@ -23,7 +23,7 @@ const Features = () => {
                     <Col md={{ span: 6, offset: 6 }}>
                         <div className='reveal fadeInRight'>
                             <h2>Sobre mí</h2>
-                            <p>Desarrollador Frontend valenciano viviendo en Madrid. Apasionado de la maquetación y siempre centrado en los pequeños detalles. Con formación en Desarrollo Web y en Comunicación Audiovisual , uno ambas disciplinas para que el producto tenga el mejor aspecto visual sobre una base de código robusta.</p>
+                            <p>Desarrollador Frontend valenciano viviendo en Madrid. Apasionado de la maquetación y siempre centrado en los pequeños detalles. Con formación en Desarrollo Web y en Comunicación Audiovisual, uno ambas disciplinas para que el producto tenga el mejor aspecto visual sobre una base de código robusta.</p>
                         </div>
                     </Col>
                 </Row>
