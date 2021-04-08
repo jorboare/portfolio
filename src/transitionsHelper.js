@@ -12,10 +12,17 @@ let spaceLeft, speedVertical, speedHorizontal
 export const stickyNavbar = () => {
 
     //Scroll Effect
-    window.scrollY > 100 ?
+    if (window.scrollY > 100) {
         document.querySelector('.navbar').classList.add('sticky')
-        :
+        document.querySelector('.drop-menu').classList.add('sticky')
+
+    } else {
+
         document.querySelector('.navbar').classList.remove('sticky')
+        document.querySelector('.drop-menu').classList.remove('sticky')
+
+    }
+
 
 
 }

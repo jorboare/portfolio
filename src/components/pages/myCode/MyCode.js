@@ -30,26 +30,26 @@ const Features = () => {
                             <img src={Icon1} alt='icon' className='feature-img' />
                             <h3>Limpio</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dapibus elit. Donec mi lorem, eleifend a maximus quis, varius eget ex. Sed at mollis felis, quis interdum ipsum. Aenean.</p>
+                                Código organizado y sencillo para ser fácil de leer.</p>
                         </Col>
                         <Col md={3}>
                             <img src={Icon2} alt='icon' className='feature-img' />
                             <h3>Rápido</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dapibus elit. Donec mi lorem, eleifend a maximus quis, varius eget ex. Sed at mollis felis, quis interdum ipsum. Aenean.</p>
-                        </Col>
-                        <Col md={3}>
-                            <img src={Icon3} alt='icon' className='feature-img' />
-                            <h3>Reutilizable</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dapibus elit. Donec mi lorem, eleifend a maximus quis, varius eget ex. Sed at mollis felis, quis interdum ipsum. Aenean.</p>
+                                Procesos rápidos y ligeros para la mayor velocidad en la carga de los proyectos.</p>
                         </Col>
                         <Col md={3}>
                             <img src={Icon4} alt='icon' className='feature-img' />
                             <h3>Mantenible</h3>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dapibus elit. Donec mi lorem, eleifend a maximus quis, varius eget ex. Sed at mollis felis, quis interdum ipsum. Aenean.</p>
+                                Proyectos fáciles de corregir y modificar gracias a su segmentación por componentes y a la reusabilidad de los mismos.</p>
+                        </Col>
+                        <Col md={3}>
+                            <img src={Icon3} alt='icon' className='feature-img' />
+                            <h3>Reutilizable</h3>
+                            <p>
+                                Reusabilidad de los componentes para conseguir proyectos menos pesados y con menos líneas de código.</p>
                         </Col>
                     </Row>
                 </Container>

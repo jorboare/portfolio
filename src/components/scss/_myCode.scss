@@ -20,7 +20,7 @@
       }
     
       h2 {
-        width: 700px;
+        width: 470px;
         margin: 0 auto;
         font-weight: 100;
         font-size: 50px;
@@ -28,6 +28,7 @@
         text-align: center;
         text-transform: uppercase;
       }
+
 
       hr {
         margin-bottom: 50px;
@@ -43,11 +44,18 @@
       p{
         text-align: center;
       }
+@media (max-width: 470px){
+        h2{
+          width: 100%;
+          font-size: 30px;
+        }
+      }
+     
     }
     
-    .feature.visible{
-    height:520px;
-    }
+.feature.visible{
+  height:520px;
+}
 
     .circle{
       height: 45px;
@@ -71,4 +79,24 @@
         transform: rotate(180deg);
       }
     }
+
+     @media (max-width: 993px){
+        .feature.visible{
+          height:520px;
+        }
+      }
+      @media (max-width: 767px){
+        .feature.visible{
+          height:1100px;
+        }
+      }
+      @media (max-width: 500px){
+        .feature.visible{
+          height:1040px;
+
+          .feature-img{
+            height: 70px
+          }
+        }
+      }
 }

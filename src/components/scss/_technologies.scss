@@ -39,4 +39,33 @@ margin-top: 30px;
   .technologies-img:hover{
     opacity: 1
   }
+
+  @media (max-width: 500px){
+
+     h2 {
+    font-size: 50px;
+    }
+    p {
+      width: 300px;
+      font-size: 15px;
+    }
+
+    .technologies-img{
+    height: 150px;
+
+
+    .tech-img {
+      position: absolute;
+      left: -120px;
+      width: 1000px;
+      }
+    }
+}
+}
+
+@media (max-width: 500px){
+
+  .technologies-section {
+    height: 380px;
+  }
 }
