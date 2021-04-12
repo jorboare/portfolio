@@ -22,19 +22,14 @@ export const stickyNavbar = () => {
         document.querySelector('.drop-menu').classList.remove('sticky')
 
     }
-
-
-
 }
 
 export const revealContainers = () => {
 
     // //Reveal Effects
     document.querySelectorAll('.reveal').forEach(elm => {
-        console.log(isInViewPort(elm))
         isInViewPort(elm) ? elm.classList.add('visible') : elm.classList.remove('visible')
     })
-
 }
 
 export const heroTitleAnimation = () => {
