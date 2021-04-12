@@ -537,8 +537,7 @@
   width: 50%;
   display: block;
   margin: 20px auto 0 auto;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  opacity: 0.3;
   -webkit-transition: -webkit-transform 0.3s ease;
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
@@ -633,7 +632,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .technologies-section {
     height: 600px;
   }
