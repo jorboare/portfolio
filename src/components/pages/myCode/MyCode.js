@@ -4,7 +4,6 @@ import Icon1 from './icons/clean.png'
 import Icon2 from './icons/fast.png'
 import Icon3 from './icons/reusable.png'
 import Icon4 from './icons/maintainable.png'
-import Arrow from './icons/arrow-down2.png'
 
 const Features = () => {
 
@@ -57,10 +56,10 @@ const Features = () => {
                 </Container>
             </div>
 
-            <button href='#feature' className='scrollto circle' onClick={handleAction}>
+            <a href='#feature' className='scrollto circle' onClick={handleAction}>
                 <p className='drop-text open visible'>Abrir</p>
                 <p className='drop-text close'>Cerrar</p>
-            </button>
+            </a>
 
         </div>
     );

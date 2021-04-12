@@ -828,7 +828,7 @@
 }
 
 footer {
-  height: 250px;
+  height: 280px;
   text-align: center;
   background-color: #eeeeee;
 }
@@ -838,6 +838,20 @@ footer h2 {
   font-weight: 100;
   text-transform: uppercase;
   padding: 40px 0 0 0;
+}
+
+footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .social-icons img {
+  width: 40px;
+  margin-right: 10px;
 }
 
 html {

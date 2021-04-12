@@ -1,5 +1,5 @@
 footer {
-  height: 250px;
+  height: 280px;
   text-align: center;
   background-color: rgb(238, 238, 238);
   h2 {
@@ -7,5 +7,16 @@ footer {
     font-weight: 100;
     text-transform: uppercase;
     padding: 40px 0 0 0;
+  }
+
+  .social-icons{
+    display: flex;
+justify-content: center;
+
+
+    img {
+      width: 40px;
+      margin-right: 10px;
+    }
   }
 }
