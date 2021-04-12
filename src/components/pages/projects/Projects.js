@@ -49,7 +49,7 @@ const projects = () => {
 
                     <a href='https://mern-tasks-jb.netlify.app/' target='_blank' rel="noreferrer">
                         <img src={Taks} alt='proyecto de organizador de tareas' />
-                        <h3>MERN Tasks</h3>
+                        <h3>Tasks Manager</h3>
                         <div className='description'>
                             <p>Proyecto MERN de gestión de tareas utilizando hooks.</p>
                         </div>
