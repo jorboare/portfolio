@@ -31,6 +31,7 @@ export const revealContainers = () => {
 
     // //Reveal Effects
     document.querySelectorAll('.reveal').forEach(elm => {
+        console.log(isInViewPort(elm))
         isInViewPort(elm) ? elm.classList.add('visible') : elm.classList.remove('visible')
     })
 

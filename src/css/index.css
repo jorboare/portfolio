@@ -609,16 +609,6 @@
   width: 120%;
 }
 
-@media (min-width: 1000px) {
-  .technologies-section .technologies-img {
-    height: 300px;
-  }
-}
-
-.technologies-section .technologies-img:hover {
-  opacity: 1;
-}
-
 @media (max-width: 500px) {
   .technologies-section h2 {
     font-size: 50px;
@@ -640,6 +630,18 @@
 @media (max-width: 500px) {
   .technologies-section {
     height: 380px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .technologies-section {
+    height: 600px;
+  }
+  .technologies-section .technologies-img {
+    height: 400px;
+  }
+  .technologies-img:hover {
+    opacity: 1;
   }
 }
 
