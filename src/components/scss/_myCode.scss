@@ -69,22 +69,35 @@
       border-radius: 50%;
       background-color: $secondary-color;
       position: absolute;
-      bottom: -15px;
+      bottom: -22px;
       left: 50%;
       transform: translateX(-50%);
       border: none;
+      box-shadow: 0px 10px 11px -1px rgba(0,0,0,0.05);
 
-      .drop-arrow {
-        width: 50%;
-        display: block;
-        margin: 20px auto 0 auto;
-        opacity: 0.3;
-        transition: transform 0.3s ease
+      .drop-text {
+        width: 100%;
+        margin-top: 15px;
+        font-size: 12px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        opacity: 0.4;
+        transition: transform 0.3s ease;
        }
 
-      .drop-arrow.active {
-        transform: rotate(180deg);
-      }
+       .drop-text.close {
+         display: none;
+       }
+       .drop-text.open {
+         display: none;
+       }
+       .drop-text.open.visible {
+         display: inherit;
+       }
+       .drop-text.close.visible {
+         display: inherit;
+       }
     }
 
      @media (max-width: 993px){

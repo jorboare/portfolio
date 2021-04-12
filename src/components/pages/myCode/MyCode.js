@@ -11,10 +11,12 @@ const Features = () => {
     const handleAction = () => {
         if (!document.querySelector('.feature').classList.contains('visible')) {
             document.querySelector('.feature').classList.add('visible')
-            document.querySelector('.drop-arrow').classList.add('active')
+            document.querySelector('.drop-text.close').classList.add('visible')
+            document.querySelector('.drop-text.open').classList.remove('visible')
         } else {
             document.querySelector('.feature').classList.remove('visible')
-            document.querySelector('.drop-arrow').classList.remove('active')
+            document.querySelector('.drop-text.close').classList.remove('visible')
+            document.querySelector('.drop-text.open').classList.add('visible')
         }
     }
 
@@ -55,9 +57,10 @@ const Features = () => {
                 </Container>
             </div>
 
-            <a href='#feature' className='scrollto circle' onClick={handleAction}>
-                <img src={Arrow} alt='arrow' className='drop-arrow' />
-            </a>
+            <button href='#feature' className='scrollto circle' onClick={handleAction}>
+                <p className='drop-text open visible'>Abrir</p>
+                <p className='drop-text close'>Cerrar</p>
+            </button>
 
         </div>
     );
