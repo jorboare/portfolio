@@ -687,6 +687,18 @@
   text-align: center;
 }
 
+.projects-section .projects .project-col img {
+  width: 100px;
+  display: block;
+  margin: 50px auto 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 100;
+}
+
 .projects-section .projects .project-col .description {
   position: absolute;
   top: 300px;
@@ -698,14 +710,44 @@
   opacity: 0.9;
 }
 
-.projects-section .projects .project-col .description p {
+.projects-section .projects .project-col .description-close {
+  display: inline;
+  margin: 10% 0 0 90%;
+  font-weight: 100;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.projects-section .projects .project-col .description-text {
   text-align: center;
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   width: 80%;
-  margin: 150px auto 0 auto;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  margin: 0 auto 0 auto;
+}
+
+.projects-section .projects .project-col .description-text span {
+  display: block;
+  font-weight: 400;
+  color: grey;
+}
+
+.projects-section .projects .project-col .description .project-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects-section .projects .project-col .description .project-links a:first-child {
+  margin-right: 30px;
+}
+
+.projects-section .projects .project-col .description .project-links img {
+  margin-top: 20px;
+  width: 30px;
 }
 
 @media (max-width: 981px) {
@@ -720,10 +762,14 @@
   }
 }
 
-.projects-section .projects .project-col:hover .description {
+.projects-section .projects .description.visible {
   top: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.projects-section .projects .project-col:hover .project-icon {
+  width: 120px;
 }
 
 .projects-section .projects .project-1 {
@@ -764,25 +810,8 @@
   background-color: #9fdfda;
 }
 
-.projects-section .projects a {
-  color: black;
-  text-decoration: none;
-}
-
-.projects-section .projects a img {
-  width: 100px;
-  display: block;
-  margin: 50px auto 0 auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  z-index: 100;
-}
-
 @media (max-width: 560px) {
-  .projects-section .projects a img {
+  .projects-section .projects img {
     width: 80px;
   }
 }
